@@ -57,6 +57,19 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Dark_Eye_Protect_LsRGB.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Dark_Eye_Protect_LsRGB.txt \
     vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Dark_Eye_Protect_Nature.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Dark_Eye_Protect_Nature.txt \
     vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Dark_Eye_Protect_Vivid.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Dark_Eye_Protect_Vivid.txt \
+    vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Game_COMP3.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_COMP3.txt \
+    vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Game_ColorInvert_Fliter.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_ColorInvert_Fliter.txt \
+    vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Game_FPS.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_FPS.txt \
+    vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Game_FPS_Fliter.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_FPS_Fliter.txt \
+    vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Game_HighDynamicRange_Fliter.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_HighDynamicRange_Fliter.txt \
+    vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Game_MOBA.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_MOBA.txt \
+    vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Game_MOBA_Fliter.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_MOBA_Fliter.txt \
+    vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Game_NightVision_Fliter.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_NightVision_Fliter.txt \
+    vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Game_OTOME.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_OTOME.txt \
+    vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Game_OTOME_Fliter.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_OTOME_Fliter.txt \
+    vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Game_OldMovie_Fliter.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_OldMovie_Fliter.txt \
+    vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Game_RPG.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_RPG.txt \
+    vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Game_Vivid_Fliter.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Game_Vivid_Fliter.txt \
     vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Lut3D_311:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Lut3D_311 \
     vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/Lut3D_312:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/Lut3D_312 \
     vendor/oneplus/fairlady/proprietary/odm/etc/PanelChaplin/panelchaplin:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/panelchaplin \
@@ -682,6 +695,17 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/blackandwhite_0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_0.cube.rgb.bin \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/blackandwhite_1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_1.cube.rgb.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_master.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_hdr_master.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_master_0.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_hdr_master_0.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_master_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_hdr_master_1.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal_0.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal_0.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal_1.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_master.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_master.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_normal.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_normal.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_sdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_sdr.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_sdr_0.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_sdr_0.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_sdr_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_sdr_1.bin \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/bright_coloured.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/bright_coloured.bin \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/ccd_base_cold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/ccd_base_cold.bin \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/ccd_base_warm.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/ccd_base_warm.bin \
@@ -736,6 +760,14 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/oplus-yellow-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-yellow-blue.cube.rgb.bin \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/p4_1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/p4_1.cube.rgb.bin \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/p4_3.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/p4_3.cube.rgb.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/portra400_hdr_master_a_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/portra400_hdr_master_a_1.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/portra400_hdr_master_d_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/portra400_hdr_master_d_1.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/portra400_hdr_normal_a_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/portra400_hdr_normal_a_1.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/portra400_hdr_normal_d_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/portra400_hdr_normal_d_1.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/portra400_master.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/portra400_master.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/portra400_normal.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/portra400_normal.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/portra400_sdr_gen_a_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/portra400_sdr_gen_a_1.bin \
+    vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/portra400_sdr_gen_d_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/portra400_sdr_gen_d_1.bin \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/rJ5g5vPWG:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/rJ5g5vPWG \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/red-red.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/red-red.cube.rgb.bin \
     vendor/oneplus/fairlady/proprietary/odm/etc/camera/meishe_lut/sky-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/sky-blue.cube.rgb.bin \
@@ -1405,7 +1437,6 @@ PRODUCT_PACKAGES += \
     libmctfengine_stub \
     libmfGhostDetection \
     libmfec \
-    libmidasserviceintf \
     libmidasserviceintf_aidl \
     libmmcamera_bestats \
     libmmcamera_cac \
@@ -1468,7 +1499,6 @@ PRODUCT_PACKAGES += \
     libvpp_frc \
     libvpp_gfrc_networks \
     libvpp_svc_skel \
-    vendor.oplus.hardware.cammidasservice@1.0 \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
     libQnnHtpV81Skel.AIMotion \
