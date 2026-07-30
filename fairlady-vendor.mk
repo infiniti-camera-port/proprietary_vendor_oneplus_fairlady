@@ -1501,6 +1501,7 @@ PRODUCT_PACKAGES += \
     libvpp_svc_skel \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
+    libsensorbridge \
     libQnnHtpV81Skel.AIMotion \
     libQnnHtp.AIMotion \
     libQnnHtpV81Stub.AIMotion \
@@ -1516,6 +1517,10 @@ PRODUCT_PACKAGES += \
     libaiboost_qnn_external_delegate.aiframe \
     libqcom_llm \
     libtransformer_lite \
+    camera.oemlayer.adapter \
+    camera.oemlayer.healthmonitor \
+    camera.oemlayer.logger \
+    camera.oemlayer.uilayer \
     com.qti.sensor.fairladyfront \
     com.qti.sensor.fairladymain \
     com.qti.sensor.fairladytele \
@@ -1534,6 +1539,7 @@ PRODUCT_PACKAGES += \
     libcamxoemsatsoftwarefusionwrapper \
     libcamxoemsatwrapper \
     com.oplus.mcx.linearmapper \
+    camera.oemlayer.v2 \
     lib2DSlender \
     libAECParamParser \
     libAF \
